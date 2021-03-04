@@ -1,16 +1,13 @@
-print("What is your name?")
-n = input()
-# print("Do you have a dog? (True or False)")
-# dog = input()
 
-if len(n) > 9:
-    print("You have a very long name!")
-elif len(n) > 6:
-    print("Your name is a bit long. Consider a nickname")
-elif len(n) < 3:
-    print("Your name is very short.")
-else:
-    print("Your name is quite okay")
 
-print("Your name contains {} letters.".format(len(n)))
-print("This is the END of the program!")
+print("Howe many times to print the symbol?")
+x = int(input())
+
+# i is a counter - it keeps track on how many times we went through a loop
+i = 1
+
+while i < x: #this is the condition for repiting the code as long as lower than x
+  print("\u27BD", i)
+  i = i + 1
+
+print("We left the loop")
