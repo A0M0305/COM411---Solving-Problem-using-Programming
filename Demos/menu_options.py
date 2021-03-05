@@ -20,7 +20,7 @@ elif option == 3:
   b = float(input())
   print("What is the height?")
   h = float(input())
-  area = (b*h)/2
+  area = 0.5*b*h
   print("The area of your triangle is {:.2}:".format(area))
 
 elif option == 4:
