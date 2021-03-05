@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print("Please choose an option from the menu:\n1 - Nice message\n2 - Area of a rectangle\n3 - Area of a Triangle\n4 - Times Table")
 print()
 
@@ -31,3 +32,18 @@ elif option == 4:
 
 else:
   print("There is no such option, go to Spec Savers")
+=======
+
+
+print("Howe many times to print the symbol?")
+x = int(input())
+
+# i is a counter - it keeps track on how many times we went through a loop
+i = 1
+
+while i < x: #this is the condition for repiting the code as long as lower than x
+  print("\u27BD", i)
+  i = i + 1
+
+print("We left the loop")
+>>>>>>> 39bbd026a30855873d9baeebbbe30963ca5ddbe9
