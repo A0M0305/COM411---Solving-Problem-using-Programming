@@ -1,5 +1,9 @@
 print("What type of books is this?")
-book = input()
+print()
 
-if book = str(adventure):
-  print("I like Adventure books")
+book = str(input("1. Adventure\n2. Horror\n3. Sci Fi\n"))
+print()
+
+if book == "Adventure":
+  print("I like {} books".format(book))
+  
