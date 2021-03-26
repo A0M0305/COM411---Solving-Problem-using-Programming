@@ -2,8 +2,10 @@ def interest():
     print("Enter your interest, one after the other, and enter \"STOP\" to end.")
     set1 = set()
     activity = ""
-    while activity != "stop":
+    while True:
         activity = input()
+        if activity == "stop":
+            break
         set1.add(activity)
     return set1
 
