@@ -10,4 +10,3 @@ plt.ylabel("Height")
 plt.step(x,y,"bD--")  # changes come from this line as of step rather than plot.
 
 plt.show()
-
